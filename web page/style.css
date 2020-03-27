@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}header{
+    background-image: url(pic3.jpg);
+    height: 630px;
+    background-size: cover;
+    background-position: center;
+}
+.pix{
+    height: 3px;
+    width: 3px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+.main-nav li{
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.main-nav li.active a{
+    border: 1px solid white;
+}
+.main-nav li.active a:hover{
+    border: 1px solid white;
+}
+body{
+    font-family: monospace;
+    margin: auto;
+}
+.row{
+    max-width: 1200px;
+}
+.now{
+    position: absolute;
+    width: 1200px;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-transform: none;
+    text-align: center;
+    margin-top: 275px;
+    font-size: 70px;
+}
+.btn{
+    border: 1px solid gold;
+    padding: 10px 30px;
+    color: blue;
+    margin-top: 275px;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.btn:hover{
+    background-color: darkorange;
+    transition: 0.5 ease-in;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: inherit;
+}
